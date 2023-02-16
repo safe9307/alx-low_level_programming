@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc $CFILE -E -o (echo $CFILE | cut -d '.' -f2 | += 'o')
+gcc -c $CFILE
