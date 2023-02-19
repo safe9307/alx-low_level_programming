@@ -2,7 +2,7 @@
 #include <ctype.h>
 
 /**
- * main - for each alphabet it turns it to a lower case
+ * main - for each alphabet it turns it to a lower case, then in uppercase
  * it executes, and prints it
  * Return: Always 0 (Success)
  */
@@ -12,6 +12,5 @@ int main(void)
 
 	for (n = 'A'; n <= 'Z'; n++)
 		putchar (tolower(n));
-	putchar('\n');
 	return (0);
 }
