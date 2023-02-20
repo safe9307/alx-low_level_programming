@@ -28,7 +28,7 @@ int main(void)
 					f++;
 				}
 				f = 0;
-				e++
+				e++;
 			}
 			e = 0;
 			f = 0;
