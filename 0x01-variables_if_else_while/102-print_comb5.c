@@ -10,13 +10,13 @@ int main(void)
 {
 	int n = 0, m = 0, e = 0, f = 1;
 
-	while (e <= 9)
+	while (n <= 9)
 	{
-		while (n <= 9)
+		while (m <= 9)
 		{
-			while (m <= 9)
+			while (f <= 9)
 			{
-				while (f <= 9)
+				while (e <= 9)
 				{
 					putchar(n + 48);
 					putchar(m + 48);
@@ -25,16 +25,13 @@ int main(void)
 					putchar(f + 48);
 					putchar(',');
 					putchar(' ');
-					f++;
+					e++;
 				}
-				m++;
-				f = n + 1;
+				f++;
 			}
-			n++;
-			m = 0;
+			m++;
 		}
-		e++;
-		n = 0;
+		n++;
 	}
 	putchar('\n');
 	return (0);
