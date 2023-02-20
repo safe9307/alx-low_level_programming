@@ -14,9 +14,9 @@ int main(void)
 	{
 		while (m <= 9)
 		{
-			while (f <= 9)
+			while (e <= 9)
 			{
-				while (e <= 9)
+				while (f <= 9)
 				{
 					putchar(n + 48);
 					putchar(m + 48);
@@ -25,12 +25,18 @@ int main(void)
 					putchar(f + 48);
 					putchar(',');
 					putchar(' ');
-					e++;
+					f++;
 				}
-				f++;
+				f = 0;
+				e++;
 			}
+			e = 0;
+			f = 0;
 			m++;
 		}
+		e = 0;
+		f = 0;
+		m = 0;
 		n++;
 	}
 	putchar('\n');
