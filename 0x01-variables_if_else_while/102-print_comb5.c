@@ -27,11 +27,11 @@ int main(void)
 					putchar(' ');
 					f++;
 				}
-				f =  m + 1;
+				f = 0;
 				e++;
 			}
 			e = 0;
-			f = 0;
+			f = m + 1;
 			m++;
 		}
 		e = 0;
