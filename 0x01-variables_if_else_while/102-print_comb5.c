@@ -27,7 +27,7 @@ int main(void)
 					putchar(' ');
 					f++;
 				}
-				f = m+1;
+				f =  m + 1;
 				e++;
 			}
 			e = 0;
