@@ -16,7 +16,7 @@ int main(void)
 		{
 			while (e <= 9)
 			{
-				if (f > e && e > m && m > n){
+				if (f >= e){
 					while (f <= 9)
 					{
 						putchar(n + 48);
