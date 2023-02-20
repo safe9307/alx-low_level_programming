@@ -16,19 +16,21 @@ int main(void)
 		{
 			while (e <= 9)
 			{
-				while (f <= 9)
-				{
-					putchar(n + 48);
-					putchar(m + 48);
-					putchar(' ');
-					putchar(e + 48);
-					putchar(f + 48);
-					putchar(',');
-					putchar(' ');
-					f++;
+				if (f > e && e > m && m > n){
+					while (f <= 9)
+					{
+						putchar(n + 48);
+						putchar(m + 48);
+						putchar(' ');
+						putchar(e + 48);
+						putchar(f + 48);
+						putchar(',');
+						putchar(' ');
+						f++;
+					}
+					f = 0;
+					e++;
 				}
-				f = 0;
-				e++;
 			}
 			e = 0;
 			f = 0;
