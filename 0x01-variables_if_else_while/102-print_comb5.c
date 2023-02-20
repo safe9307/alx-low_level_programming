@@ -30,9 +30,9 @@ int main(void)
 				f = 0;
 				e++;
 			}
+			m++;
 			e = 0;
 			f = m + 1;
-			m++;
 		}
 		e = 0;
 		f = 0;
