@@ -1,12 +1,15 @@
 #include "main.h"
 
 /**
- * main - for each alphabet it turns it to a lower case
+ * print_alphabet - for each alphabet it turns it to a lower case
  * it executes, and prints it
- * Return: Always 0 (Success)
+ * Return: nothing
  */
-int main(void)
+void print_alphabet(void)
 {
-	print_alphabet();
-	return (0);
+        int n;
+
+        for (n = 'A'; n <= 'Z'; n++)
+                putchar (tolower(n));
+        putchar('\n');
 }

@@ -10,14 +10,3 @@
 int _putchar (int character);
 
 void print_alphabet(void);
-
-void print_alphabet(void)
-{
-	int n;
-
-	for (n = 'A'; n <= 'Z'; n++)
-		putchar (tolower(n));
-	putchar('\n');
-}
-
-
