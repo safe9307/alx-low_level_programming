@@ -1,6 +1,3 @@
-#include <stdio.h>
-#include <ctype.h>
-
 /**
  * _putchar - prints charachter
  * print_alphabet - print alphabets in lower case
