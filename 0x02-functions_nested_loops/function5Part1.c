@@ -4,7 +4,7 @@
  * define 5 functions
  */
 
-void print_alphabets_lower_case(void)
+void print_alphabet(void)
 {
 	int n;
 

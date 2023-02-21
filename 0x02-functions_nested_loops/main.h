@@ -7,5 +7,5 @@
 
 int putchar (int character);
 
-void print_alphabets_lower_case(void);
+void print_alphabet(void);
 
