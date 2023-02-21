@@ -1,6 +1,7 @@
 /**
  * _putchar - prints charachter
  * print_alphabet - print alphabets in lower case
+ * character - phrase
  * Return: no return
  */
 
