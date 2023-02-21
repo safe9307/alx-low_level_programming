@@ -1,5 +1,3 @@
-#include<stdio.h>
-#include<string.h>
 #include"main.h"
 
 /**
@@ -15,8 +13,8 @@ int main(void)
 
 	for (n = 0 ; n < strlen(s); n++)
 	{
-		putchar (s[n]);
+		_putchar (s[n]);
 	}
-	putchar ('\n');
+	_putchar ('\n');
 	return (0);
 }
