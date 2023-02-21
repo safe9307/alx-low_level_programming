@@ -1,1 +1,3 @@
-0-putchar.c program that prints _putchar <br/ >
+0-putchar.c program that prints _putchar. <br/ >
+1-alphabet.c program that prints alphabets in lower case. <br/ >
+2-print_alphabet_x10.c program that prints alphabets in lower case 10 times. <br/ >
