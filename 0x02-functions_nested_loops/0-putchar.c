@@ -13,7 +13,7 @@ int main(void)
 
 	unsigned int long n;
 
-	for (n = 0 ; n <= strlen(s); n++)
+	for (n = 0 ; n < strlen(s); n++)
 	{
 		putchar (s[n]);
 	}
