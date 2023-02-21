@@ -7,14 +7,6 @@
  */
 int main(void)
 {
-	char s[] = "_putchar";
-
-	unsigned int long n;
-
-	for (n = 0 ; n < strlen(s); n++)
-	{
-		_putchar (s[n]);
-	}
-	_putchar ('\n');
+	_putchar("_putchar");
 	return (0);
 }
