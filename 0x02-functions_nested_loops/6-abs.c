@@ -6,7 +6,7 @@
  * it executes, and prints it
  * Return: absolute value
  */
-int _abs(int n)
+static int _abs(int n)
 {
 	if (n >= 0)
 		return (n);
