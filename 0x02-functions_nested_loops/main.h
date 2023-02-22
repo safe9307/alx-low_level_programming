@@ -7,6 +7,8 @@
  * @c: entry charachter
  * _isalpha - return 1 if entry uppercase or lowercase 0 otherwise
  * @c: entry character
+ * print_sign - return 1 if pos 0 if null -1 if neg and prints signs
+ * @n: number entry
  * Return: no return
  */
 
@@ -19,3 +21,5 @@ void print_alphabet_x10(void);
 int _islower(int c);
 
 int _isalpha(int c);
+
+int print_sign(int n);
