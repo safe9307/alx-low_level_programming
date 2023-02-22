@@ -4,7 +4,7 @@
  * _abs - absolute value of a number
  * @n: number entry
  * it executes, and prints it
- * Return: 1 if pos, 0 if null, -1 if neg
+ * Return: absolute value
  */
 int _abs(int n)
 {
