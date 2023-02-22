@@ -9,6 +9,8 @@
  */
 int print_last_digit(int n)
 {
-	n = _abs (n);
-	return ( n % 10 + 48 );
+	int last_digit;
+       
+	last_digit = _abs (n) % 48;
+	return (last_digit);
 }
