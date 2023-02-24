@@ -12,6 +12,7 @@
  * _abs - return absolute value of number
  * @n: entry number
  * print_last_digit - return last digit of a number
+ * jack_bauer - prints every minute of the day of Jack Bauer
  * @n: entry number
  * Return: no return
  */
@@ -31,3 +32,5 @@ int print_sign(int n);
 int _abs(int n);
 
 int print_last_digit(int n);
+
+void jack_bauer(void);
