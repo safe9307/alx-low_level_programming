@@ -1,6 +1,5 @@
 #include"main.h"
 #include"2-strlen.c"
-#include"1-swap.c"
 
 /**
  * rev_string - reverse a string, followed by a new line to stdout
@@ -11,7 +10,12 @@
 void rev_string(char *s)
 {
 	int i, len = _strlen(s);
+	char x;
 
 	for (i = len - 1; i >= 0; i--)
-		swap_int(*s[i], *s[i - len + 1]);
+	{
+		x = *s[i]; 
+		*s[i] = *s[i - len + 1];
+	       *s[i - len + 1] = x;	
+	}
 }
