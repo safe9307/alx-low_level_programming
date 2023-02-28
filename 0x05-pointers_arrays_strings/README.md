@@ -7,3 +7,4 @@
 6-puts2.c prints every other character of a string. <br/ >
 7-puts_half.c prints half of a string. <br/ >
 8-print_array.c print n elements of an array of integers. <br/ >
+9-strcpy.c copies q tring to q buffer. <br/ >
