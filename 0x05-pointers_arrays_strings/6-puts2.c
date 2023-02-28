@@ -1,4 +1,5 @@
 #include"main.h"
+#include"2-strlen.c"
 
 /**
  * puts2 - prints every other character of a string,followed by a new line.
@@ -8,9 +9,9 @@
 
 void puts2(char *str)
 {
-	int i = 0;
+	int i = 0, len = _strlen(str) - 1;
 
-	while (str[i] != '\0')
+	while (i <= len)
 	{
 		_putchar(str[i]);
 		i += 2;
