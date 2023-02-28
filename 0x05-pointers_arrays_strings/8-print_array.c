@@ -10,7 +10,7 @@
 
 void print_array(int *a, int n)
 {
-	int i = 0;
+	int i = 0, sizeofa = sizeof(a) / sizeof(a[0]);
 
 	while (i < (n - 1))
 	{
@@ -18,4 +18,5 @@ void print_array(int *a, int n)
 		i++;
 	}
 	printf("%d\n", a[n - 1]);
+	printf("n = %d, sizeOfa = %d", n, sizeofa);
 }
