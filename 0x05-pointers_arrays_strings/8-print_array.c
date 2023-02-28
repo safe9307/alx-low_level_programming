@@ -10,7 +10,7 @@
 
 void print_array(int *a, int n)
 {
-	int i = 0, lenOfa = (*(a + 1) - a) - 1;
+	int i = 0, lenOfa = (*(&a + 1) - *a) - 1;
 
 	if (n == lenOfa)
 	{
