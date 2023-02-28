@@ -12,9 +12,9 @@ void print_array(int *a, int n)
 {
 	int i;
 
-	while (i <= n)
+	while (i < n)
 	{
-		printf("%p, ", a[i]);
+		printf("%d, ", a[i]);
 		i++;
 	}
 	_putchar('\n');
