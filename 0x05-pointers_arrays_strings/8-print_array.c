@@ -10,13 +10,15 @@
 
 void print_array(int *a, int n)
 {
-	int i = 0, sizeofa = *(&a + 1) - a;
+	int i = 0, len_of_a = *(&a + 1) - a;
 
-	while (i < (n - 1))
+	if (n == len_of_a - 1)
 	{
-		printf("%d, ", a[i]);
-		i++;
+		while (i < (n - 1))
+		{
+			printf("%d, ", a[i]);
+			i++;
+		}
+		printf("%d\n", a[n - 1]);
 	}
-	printf("%d\n", a[n - 1]);
-	printf("n = %d, sizeOfa = %d", n, sizeofa);
 }
