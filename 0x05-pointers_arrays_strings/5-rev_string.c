@@ -2,7 +2,7 @@
 #include"2-strlen.c"
 
 /**
- * rev_string - reverse a string, followed by a new line to stdout
+ * rev_string - reverse a string.
  * @s: string variable of pointer *s
  * Return: no return
  */
