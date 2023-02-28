@@ -12,7 +12,7 @@ void print_array(int *a, int n)
 {
 	int i = 0;
 
-	if (n == *(&a + 1) - &a)
+	if (n == *(&a + 1) - &a - 1)
 	{
 		while (i < (n - 1))
 		{
