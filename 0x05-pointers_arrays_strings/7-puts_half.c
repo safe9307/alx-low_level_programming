@@ -1,0 +1,23 @@
+#include"main.h"
+#include"2-strlen.c"
+
+/**
+ * puts_half - prints the 2nd half of a string,followed by a new line.
+ * @str: string variable of pointer *str
+ * Return: no return
+ */
+
+void puts_half(char *str)
+{
+	int i = _strlen(str) / 2, len = _strlen(str) - 1;
+
+	if (n % 2 != 0)
+		i = len / 2
+
+	while (i <= len)
+	{
+		_putchar(str[i]);
+		i++;
+	}
+	_putchar('\n');
+}
