@@ -10,7 +10,7 @@
 
 void print_array(int *a, int n)
 {
-	int i = 0, sizeofa = *(&a+1) - 1;
+	int i = 0, sizeofa = *(*a + 1) - 1;
 
 	while (i < (n - 1))
 	{
