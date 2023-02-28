@@ -10,9 +10,9 @@
 
 void print_array(int *a, int n)
 {
-	int i = 0, len_of_a = *(&a + 1) - a;
+	int i = 0;
 
-	if (n == len_of_a - 1)
+	if (n == *(&a + 1) - &a)
 	{
 		while (i < (n - 1))
 		{
