@@ -10,9 +10,9 @@
 
 void print_array(int *a, int n)
 {
-	int i = 0;
+	int i = 0, lenOfa = (*(a + 1) - a) - 1;
 
-	if (n == (*(&a + 1) - a) - 1)
+	if (n == lenOfa)
 	{
 		while (i < (n - 1))
 		{
@@ -21,5 +21,5 @@ void print_array(int *a, int n)
 		}
 		printf("%d\n", a[n - 1]);
 	}
-	printf("n = %d, hssab = %d", n, i);
+	printf("n = %d, hssab = %d", n, lenOfa);
 }
