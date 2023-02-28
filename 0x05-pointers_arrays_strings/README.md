@@ -6,3 +6,4 @@
 5-rev_string.c revrse a string. <br/ >
 6-puts2.c prints every other character of a string. <br/ >
 7-puts_half.c prints half of a string. <br/ >
+8-print_array.c print n elements of an array of integers. <br/ >
