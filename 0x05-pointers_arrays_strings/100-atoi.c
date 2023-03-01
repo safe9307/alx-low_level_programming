@@ -12,7 +12,7 @@ int _atoi(char *s)
 {
 	int plus = 0, minus = 0, ten_seq = 0, int_of_s = 0, plus_minus_after_num = 1;
 	int len_of_src = _strlen(s), i = 0, j = 0;
-	char *reduced_s;
+	char *reduced_s = '\0';
 
 	while (i < len_of_src)
 	{
