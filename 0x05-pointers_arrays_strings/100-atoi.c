@@ -1,5 +1,6 @@
 #include"main.h"
 #include"2-strlen.c"
+#include<math.h>
 
 /**
  * _atoi - convert a string to integer
@@ -47,7 +48,7 @@ int _atoi(char *s)
 		{
 			minus = minus - plus;
 			if (minus % 2 == 1)
-				int_of_s = -integer_of_s;
+				int_of_s = -int_of_s;
 		}
 	}
 	return (int_of_s);
