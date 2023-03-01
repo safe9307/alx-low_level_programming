@@ -8,3 +8,4 @@
 7-puts_half.c prints half of a string. <br/ >
 8-print_array.c print n elements of an array of integers. <br/ >
 9-strcpy.c copies q tring to q buffer. <br/ >
+100-atoi.c convert a string to integer. <br/ >
