@@ -19,6 +19,6 @@ char *_strncpy(char *dest, char *src, int n)
 		if (len == n)
 			break;
 	}
-	dest[n] = '\0';
+	dest[len - 1] = '\0';
 	return (dest);
 }
