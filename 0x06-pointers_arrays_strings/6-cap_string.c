@@ -1,15 +1,15 @@
 #include"main.h"
 
 /**
- * string_toupper - changes from lower to upper
- * @a: string entry
+ * cap_string - changes from lower to upper
+ * @s: string entry
  * Return: string
  */
 
-char *string_toupper(char *a)
+char *cap_string(char *s)
 {
 	int len = 0, i;
-	int *p = {' ', '\t', '\n', ',', ';', '.', '(', ')', '!', '?', '"', '{', '}'};
+	char p[13] = {' ', '\t', '\n', ',', ';', '.', '(', ')', '!', '?', '"', '{', '}'};
 
 	while (s[len] != '\0')
 	{
@@ -17,7 +17,7 @@ char *string_toupper(char *a)
 		{
 			if (s[len] == p[i] && s[len + 1] <= 122 && s[len + 1] >= 97)
 			{
-				s[len + 1] - = 32;
+				s[len + 1] -= 32;
 				break;
 			}
 		}
