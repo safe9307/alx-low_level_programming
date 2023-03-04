@@ -5,3 +5,4 @@
 4-rev_array.c revers the content of an array. <br/>
 5-string_toupper.c changer all lowercase letters of a string to upper case. <br/ >
 6-cap_string.c capitalizes all words in string. <br/ >
+7-leet.c function that encodes a string to 1337. <br/ >
