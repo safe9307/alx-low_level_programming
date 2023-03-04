@@ -1,20 +1,27 @@
 #include"main.h"
 
 /**
- * cap_string - capitalize all words in a string
- * @s: string entry
+ * string_toupper - changes from lower to upper
+ * @a: string entry
  * Return: string
  */
 
-char *cap_string(char *s)
+char *string_toupper(char *a)
 {
-	int len = 0;
+	int len = 0, i;
+	int *p = {' ', '\t', '\n', ',', ';', '.', '(', ')', '!', '?', '"', '{', '}'};
 
-	while (a[len] != '\0')
+	while (s[len] != '\0')
 	{
-		if (a[len] >= 97 && a[len] <= 122)
-			a[len] = a[len] - 32;
+		for (i = 0; i < 13; i++)
+		{
+			if (s[len] == p[i] && s[len + 1] <= 122 && s[len + 1] >= 97)
+			{
+				s[len + 1] - = 32;
+				break;
+			}
+		}
 		len++;
 	}
-	return (a);
+	return (s);
 }
