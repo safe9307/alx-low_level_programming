@@ -9,14 +9,14 @@
 char *leet(char *s)
 {
 	int len = 0, i;
-	int a[8] = {97, 101, 111, 116, 108, 4, 3, 0, 7, 1};
+	int a[10] = {97, 101, 111, 116, 108, 52, 51, 48, 55, 49};
 
 	while (s[len] != '\0')
 	{
-		for (i = 0; i < 8; i++)
+		for (i = 0; i < 10; i++)
 		{
 			if (s[len] == a[i] || s[len] == a[i] - 32)
-				s[len] = a[i + 4];
+				s[len] = a[i + 5];
 		}
 		len++;
 	}
