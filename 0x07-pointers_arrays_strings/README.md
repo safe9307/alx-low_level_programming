@@ -4,3 +4,4 @@
 3-strspn.c gets the length of a prefix substring. <br/ >
 4-strpbrk.c searches a string for any of a set of bytes. <br/ >
 5-strstr.c locates a substring. <br/ >
+7-print_chessboard.c prints the chessboard. <br/ >
