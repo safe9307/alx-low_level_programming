@@ -1,5 +1,4 @@
 #include"main.h"
-#include"4-pow_recursion.c"
 
 /**
  * _sqrt_recursion - returns the natural square root of a number
@@ -26,16 +25,15 @@ int _sqrt_recursion_mid(int start, int end, int n)
 {
 	int mid = (start + end) / 2;
 
-	if (start <= end)
+	if ((mid * mid <= n) && ((mid + 1) * (mid + 1) > n))
 	{
-		if ((mid * mid <= n) && ((mid + 1) * (mid + 1) > n))
+		if (mid * mid == n)
 			return (mid);
-		if (mid * mid < n)
-			return (_sqrt_recursion_mid(mid + 1, end, n));
 		else
-			return (_sqrt_recursion_mid(start, mid - 1, n));
+			return (-1);
 	}
+	if (mid * mid < n)
+		return (_sqrt_recursion_mid(mid + 1, end, n));
 	else
-		return (start);
+		return (_sqrt_recursion_mid(start, mid - 1, n));
 }
-
